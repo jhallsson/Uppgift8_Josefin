@@ -6,9 +6,7 @@ body {
 footer {
   padding: 2% 5%;
 }
-section{
-  height: 500px;
-}
+
 
 
 #logo {
@@ -61,6 +59,16 @@ section{
   /* OBS byt */
   text-align: center;
 }
+.images{
+  width: 85%;
+  height: 85%;
+}
+
+.machines{
+  font-size: x-small;
+}
+
+
 /* desktop och uppåt */
 @media (min-width: 768px) {
     body {
