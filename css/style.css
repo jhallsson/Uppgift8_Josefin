@@ -33,6 +33,7 @@ section{
   background-color: #7cb765;
 }
 
+
 .fa-coffee {
   color: #f8f9fa;
 }
@@ -40,6 +41,9 @@ section{
 .sticky {
   position: fixed;
   top: 0;
+  /* tas ur flowet (position)?
+  måste bestämma width tsm med innehållet? */
+   width: 70%; /*varför 70%? body margin 100%-(15+15)*/
   /*height:30px;*/
 }
 
