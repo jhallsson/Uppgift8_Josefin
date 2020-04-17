@@ -1,6 +1,5 @@
 body {
-
-  background-color: #6b926b;
+  background-color:#f8f9fa;
 }
 
 footer {
@@ -65,11 +64,19 @@ footer {
 .machines{
   font-size: x-small;
 }
-
+.card-header{
+  background-color:#6b926b;
+}
+.party-btn{
+  background-color: #7cb765;
+  border:none;
+}
 
 /* desktop och uppåt */
 @media (min-width: 768px) {
     body {
+
+        background-color: #6b926b;
       margin: auto 15%;
     }
     .sticky{
