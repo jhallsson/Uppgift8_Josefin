@@ -1,5 +1,5 @@
 body {
-  margin: auto 15%;
+
   background-color: #6b926b;
 }
 
@@ -41,9 +41,10 @@ section{
 .sticky {
   position: fixed;
   top: 0;
+  width:100%;
   /* tas ur flowet (position)?
   måste bestämma width tsm med innehållet? */
-   width: 70%; /*varför 70%? body margin 100%-(15+15)*/
+    /*varför 70%? body margin 100%-(15+15)*/
   /*height:30px;*/
 }
 
@@ -57,5 +58,15 @@ section{
   color: #f8f9fa;
 }
 .col-1{
+  /* OBS byt */
   text-align: center;
+}
+/* desktop och uppåt */
+@media (min-width: 768px) {
+    body {
+      margin: auto 15%;
+    }
+    .sticky{
+      width: 70%;
+    }
 }
