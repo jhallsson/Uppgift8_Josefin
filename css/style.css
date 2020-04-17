@@ -1,5 +1,5 @@
 body {
-  background-color:#f8f9fa;
+  background-color: #f8f9fa;
 }
 
 footer {
@@ -28,7 +28,6 @@ footer {
   background-color: #7cb765;
 }
 
-
 .fa-coffee {
   color: #f8f9fa;
 }
@@ -36,61 +35,69 @@ footer {
 .sticky {
   position: fixed;
   top: 0;
-  width:100%;
+  width: 100%;
   z-index: 10;
-
 }
 
 .sticky+.content {
   padding-top: 40px;
 }
-.webmaster{
-      font-size: x-small;
+
+.webmaster {
+  font-size: x-small;
 }
-.fab{
+
+.fab {
   color: #f8f9fa;
 }
-.col-1{
+
+.col-1 {
   /* OBS byt */
   text-align: center;
 }
-.images{
+
+.images {
   width: 85%;
   /* height: 85%; */
   /* bättre med fasta pixlar? */
 }
 
-.machines{
+.machines {
   font-size: x-small;
 }
-.card-header{
-  background-color:#6b926b;
+
+.card-header {
+  background-color: #6b926b;
 }
-.party-btn{
+
+.party-btn {
   background-color: #7cb765;
-  border:none;
+  border: none;
 }
-.employee img{
+
+.employee img {
   width: 100%;
   /* width: 40px; */
-/* 800x1000 */
+  /* 800x1000 */
 }
-.index-info{
+
+.index-info {
   /* padding: 5% 2%; */
-  padding-top:5%
+  padding-top: 5%
 }
 
 /* desktop och uppåt */
 @media (min-width: 768px) {
-    body {
+  body {
+    background-color: #6b926b;
+    margin: auto 15%;
+  }
 
-        background-color: #6b926b;
-      margin: auto 15%;
-    }
-    .sticky{
-      width: 70%;
-    }
+  .sticky {
+    width: 70%;
+  }
 }
+
 /* @media (max-width: 767px){
   .images{
     text-align: center;
