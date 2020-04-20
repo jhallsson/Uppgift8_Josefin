@@ -9,8 +9,6 @@ footer {
 #logo {
   width: 50px;
   height: 50px;
-  border-radius: 10px;
-  margin-right: 10px;
 }
 
 #nav-logo {
@@ -18,14 +16,17 @@ footer {
   height: 30px;
   border: solid 2px white;
   border-radius: 10px;
-  margin-left: 5px;
   /* visibility: hidden; */
   opacity: 0;
   transition: opacity .5s;
 }
+#index-info .row{
+  margin: 5% auto 5% auto;
+}
 #party-carousel{
   width: 80%;
 }
+
 .carousel-caption{
   text-shadow: 0 0 3px #000000, 0 0 5px var(--gray);
 
@@ -59,10 +60,10 @@ bottom: 45%;
   color: #f8f9fa;
 }
 
-.col-1 {
-  /* OBS byt */
+/* .col-1 {
+   OBS byt
   text-align: center;
-}
+} */
 
 .images {
   width: 85%;
@@ -100,15 +101,24 @@ bottom: 45%;
     background-color: #6b926b;
     margin: auto 15%;
   }
-
+  .right{
+    text-align: right;
+  }
   .sticky {
     width: 70%;
   }
 }
 
-/* @media (max-width: 767px){
+@media (max-width: 767px){
   .images{
     text-align: center;
-
+    margin: 5% auto 5% auto;
   }
-} */
+  #party-carousel{
+    visibility:hidden;
+    height: 0;
+  }
+  .employee img {
+    width: 60%;
+  }
+}
