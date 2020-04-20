@@ -16,23 +16,24 @@ footer {
   height: 30px;
   border: solid 2px white;
   border-radius: 10px;
-  /* visibility: hidden; */
   opacity: 0;
   transition: opacity .5s;
 }
-#index-info .row{
+
+#index-info .row {
   margin: 5% auto 5% auto;
 }
-#party-carousel{
+
+#party-carousel {
   width: 80%;
 }
 
-.carousel-caption{
+.carousel-caption {
   text-shadow: 0 0 3px #000000, 0 0 5px var(--gray);
-
   background: #6b926b;
-bottom: 45%;
+  bottom: 45%;
 }
+
 .navbar, footer {
   background-color: #7cb765;
 }
@@ -45,12 +46,12 @@ bottom: 45%;
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 10;
+  z-index: 20;
 }
 
-.sticky+.content {
-  padding-top: 40px;
-}
+/* .sticky+.content {
+  padding-top: 100px;
+} */
 
 .webmaster {
   font-size: x-small;
@@ -64,7 +65,6 @@ bottom: 45%;
    OBS byt
   text-align: center;
 } */
-
 .images {
   width: 85%;
   /* height: 85%; */
@@ -86,38 +86,36 @@ bottom: 45%;
 
 .employee img {
   width: 100%;
-  /* width: 40px; */
   /* 800x1000 */
 }
 
-.index-info {
-  /* padding: 5% 2%; */
-  padding-top: 5%
-}
-
-/* desktop och uppåt */
+/* md och uppåt */
 @media (min-width: 768px) {
   body {
     background-color: #6b926b;
     margin: auto 15%;
   }
-  .right{
+
+  .right {
     text-align: right;
   }
+
   .sticky {
     width: 70%;
   }
 }
-
-@media (max-width: 767px){
-  .images{
+/* mindre än md */
+@media (max-width: 767px) {
+  .images {
     text-align: center;
     margin: 5% auto 5% auto;
   }
-  #party-carousel{
-    visibility:hidden;
+
+  #party-carousel {
+    visibility: hidden;
     height: 0;
   }
+
   .employee img {
     width: 60%;
   }
