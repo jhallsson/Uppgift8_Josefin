@@ -24,10 +24,6 @@ footer {
   margin: 5% auto 5% auto;
 }
 
-#party-carousel {
-  width: 80%;
-}
-
 .carousel-caption {
   text-shadow: 0 0 3px #000000, 0 0 5px var(--gray);
   background: #6b926b;
