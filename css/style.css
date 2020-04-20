@@ -110,6 +110,7 @@ footer {
   #party-carousel {
     visibility: hidden;
     height: 0;
+    margin:0;
   }
 
   .employee img {
